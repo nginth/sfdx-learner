@@ -1,0 +1,2 @@
+<aura:registerEvent name="accountsLoaded" type="c:AccountsLoaded"/>
+<ltng:require styles="/resource/leaflet/leaflet.css" scripts="/resource/leaflet/leaflet.js" afterScriptsLoaded="{!c.doInit}" />
